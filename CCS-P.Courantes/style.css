@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h3 {
+    color: blue;
+    font-size: x-large;
+}
+
+#paragrapheH3 {
+    background-color: orange;
+}
+
+p {
+    background-color: gray;
+}
