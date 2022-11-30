@@ -9,10 +9,28 @@ h3 {
     font-size: x-large;
 }
 
-#paragrapheH3 {
-    background-color: orange;
-}
-
 p {
     background-color: gray;
+
+}
+
+article:nth-last-child(2) p {
+    background-color: pink;
+}
+
+strong {
+    color: yellowgreen;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    font-size: large;
+    color: orange;
+}
+
+article:nth-last-child(3) h3{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
 }
