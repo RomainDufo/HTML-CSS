@@ -1,13 +1,29 @@
-table{
+#table1{
     border: double purple 5px;
     border-collapse: collapse;
 }
-caption{
+#table1 caption{
     color: purple;
 }
-table tr:nth-child(1){
+#table1 tr:nth-child(1){
     background-color: lightblue;
 }
-table td, table th {
+#table1 td, #table1 th {
     border: solid black 2px;
+}
+
+#table2{
+    color: aquamarine;
+    border: solid burlywood 3px;
+    border-collapse: collapse;
+    background-image: radial-gradient(circle at center, burlywood,brown);
+}
+#table2 caption{
+    color: darkblue;
+}
+#table2 tr:nth-child(1){
+    background-color: burlywood;
+}
+#table2 td, #table1 th {
+    border: solid burlywood 2px;
 }
