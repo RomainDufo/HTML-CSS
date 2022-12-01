@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form method="POST" action="monProgramme.php">
+        <fieldset>
+            <legend>Info personnelles</legend>
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="prenom">
+            <br>
+            <label for="name">Nom:</label>
+            <input type="text" name="name" placeholder="Ex: Dubois" minlength="2" maxlength="20" id="name">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Ex: monMail@FAI.com" minlength="2" maxlength="20" id="email">
+            <br>
+            <label for="tel">Numéro:</label>
+            <input type="tel" name="telephone" placeholder="Ex: 00.11.22.33.44" minlength="2" maxlength="20" id="tel">
+            <br>
+            <label for="password">Mot de passe:</label>
+            <input type="password" name="password" placeholder="Ex: P@ssWo4d" id="password">
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" placeholder="Ex: 15" id="age">
+            <br>
+            <label for="textarea">Laissez un commentaire:</label>
+            <br>
+            <textarea name="textarea" id="textarea" cols="70" rows="10" placeholder="J'adore ce que vous faites !"></textarea>
+            <br>
+            <label for="date">Date de mon commentaire:</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <label for="file">Ma photo:</label>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <fieldset>
+            <legend>Vous préfèrez:</legend>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Le HTML</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Le CSS</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Le JavaScript</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Ne rien faire</label>
+        </fieldset>
+        <fieldset>
+            <legend>Vous vous levez:</legend>
+            <input type="radio" id="lematin" name="radio" value="lematin"/><label for="lematin">Le matin</label>
+            <br>
+            <input type="radio" id="lemidi" name="radio" value="lemidi"/><label for="lemidi">Le midi</label>
+            <br>
+            <input type="radio" id="lesoir" name="radio" value="lesoir"/><label for="lesoir">Le soir</label>
+            <br>
+            <input type="radio" id="enretard" name="radio" value="enretard"/><label for="enretard">En retard !</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <label for="liste">Vous en avez assez ?</label>
+            <select name="liste" id="liste">
+                <optgroup label="Team Pas encore">
+                    <option value="j'enveuxplus">J'en veux plus</option>        
+                    <option value="c'estsuper">C'est super !</option>
+                </optgroup>
+                <optgroup label="Team Oula">
+                    <option value="jenaimarre">J'en ai marre</option>
+                    <option value="pitié">Pitié !</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit" value="Envoyer"/>
+            <input type="submit" value="Reset"/>
+        </fieldset>
+    
+
+    </form>
+</body>
+
+</html>
