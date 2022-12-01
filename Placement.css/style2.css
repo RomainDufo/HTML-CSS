@@ -1,0 +1,23 @@
+form{
+    background-color: lightgray;
+    width: 400px;
+    height: 250px;
+    border: solid black 0.5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#boutons{
+    text-align: center;
+}
+
+#labels{
+    margin-left: 30px;
+    margin: ;
+}
+
+#checkbox{
+    margin-right: 10px;
+}
