@@ -1,0 +1,15 @@
+
+h1{
+    color: aquamarine;
+    text-shadow: 3px 3px 5px purple;
+}
+
+#p1{
+    box-shadow: 3px 3px 5px burlywood;
+}
+
+#p2{
+    box-shadow: 3px 3px 5px brown;
+}
+
+

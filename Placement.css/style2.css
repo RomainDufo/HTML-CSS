@@ -1,0 +1,27 @@
+form{
+    background-color: lightgray;
+    width: 400px;
+    height: 250px;
+    border: solid black 0.5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#boutons{
+    text-align: center;
+    margin: 20px 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: black; color: white;
+}
+
+#labels{
+    margin-left: 30px;
+}
+
+#checkbox{
+    margin-right: 10px;
+}
