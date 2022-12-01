@@ -11,11 +11,15 @@ h1{
 
 #boutons{
     text-align: center;
+    margin: 20px 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: black; color: white;
 }
 
 #labels{
     margin-left: 30px;
-    margin: ;
 }
 
 #checkbox{
