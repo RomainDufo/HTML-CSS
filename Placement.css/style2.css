@@ -7,21 +7,32 @@ form{
 
 h1{
     text-align: center;
+    background-color: green
 }
 
-#boutons{
-    text-align: center;
-    margin: 20px 5px;
-}
-
-input[type="submit"]:hover {
-    background-color: black; color: white;
+#checkbox{
+    margin-right: 10px;
 }
 
 #labels{
     margin-left: 30px;
 }
 
-#checkbox{
-    margin-right: 10px;
+#motdepasse{
+    
+    background-color: red;
 }
+
+#boutons{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: black; color: white;
+}
+
+
+
+
