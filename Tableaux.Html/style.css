@@ -1,0 +1,13 @@
+table{
+    border: double purple 5px;
+    border-collapse: collapse;
+}
+caption{
+    color: purple;
+}
+table tr:nth-child(1){
+    background-color: lightblue;
+}
+table td, table th {
+    border: solid black 2px;
+}
