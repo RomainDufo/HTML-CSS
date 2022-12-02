@@ -9,16 +9,19 @@
 
 <body>
     <header>
-        <h1>Gros Titre</h1>
+        <img src="./antalya_488896_pghd.jpg" width="800px" height="200px">
+        <h1>La Méditerranée</h1>
         <nav>
             <ul>
                 <li>
                     <a href="index.html">Accueil</a>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <a href="#mediteranee1">Blog</a>
                 </li>
-                <li>Galerie</li>
+                <li>
+                    <a href="#">Galerie</a>
+                </li>
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
@@ -30,31 +33,29 @@
     <form action="post" method="post">
         <fieldset>
             <div>
-                <input type="text" name="" id="">
+                <label for="name">Nom:<span class="etoilerouge">*</span></label>
+                <input type="text" name="name" id="name" placeholder="Ex: Karim" minlength="2" maxlength="20">
             </div>
             <div>
-                <input type="text" name="" id="">
+                <label for="mail">E-mail:<span class="etoilerouge">*</span></label>
+                <input type="text" name="mail" id="mail" placeholder="Ex: @mail">
             </div>
             <div>
-                <input type="text" name="" id="">
+                <label for="message">Laisser un commentaire:</label><br>
+                <textarea name="message" id="message" cols="70" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                <br>
             </div>
             <div>
-                <input type="text" name="" id="">
+                <label for="checkbox">Envoyer une copie par E-mail !</label>
+                <input type="checkbox" name="checkbox" id="checkbox" >
             </div>
             <div>
-                <input type="text" name="" id="">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="">
-
-                </textarea>
-            <input type="checkbox">
-            <div>
-                <input type="button">
-                <input type="button">
+                <input type="submit" value="Envoyer"  name="envoyer" id="envoyer">
+                <input type="submit" value="Reset" name="reset" id="reset">
             </div>
         </fieldset>
     </form>
-    
+
     <footer>
         <ul>
             <li>
@@ -64,19 +65,10 @@
                 <a href="https://fr.wikipedia.org/wiki/Indus">L'Indus</a>
             </li>
             <li>
-                <a href="https://fr.wikipedia.org/wiki/Gange">Le Gange</a>
-            </li>
-            <li>
-                <a href="https://fr.wikipedia.org/wiki/Fleuve_Jaune">Le Fleuve Jaune</a>
-            </li>
-            <li>
                 <a href="https://fr.wikipedia.org/wiki/Yangzi_Jiang">Le Yangzi Jiang</a>
             </li>
             <li>
                 <a href="https://fr.wikipedia.org/wiki/Carthage">Carthage</a>
-            </li>
-            <li>
-                <a href="https://fr.wikipedia.org/wiki/Byzance">Byzance</a>
             </li>
         </ul>
     </footer>
