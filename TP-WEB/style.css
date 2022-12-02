@@ -1,0 +1,58 @@
+body{
+    background-image: radial-gradient(circle at center,#ccdae0, #edf2f4);
+    font-family: monospace;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ef233c;
+}
+
+h3{
+    color: #2b2d42;
+    font-weight: bolder;
+    text-decoration: none;
+    border-bottom: dotted;
+    max-width: fit-content;
+}
+
+article{
+    border:solid rgb(89, 84, 84) 2px; 
+    padding: 15px;
+}
+
+img{
+
+    border: solid 2px rgb(62, 59, 59);
+}
+
+div{
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+.etoilerouge::after{
+    content: "💫";
+}
+
+a:link{
+    color: #d90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{ 
+    color: #2b2d42;
+}
