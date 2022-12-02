@@ -1,0 +1,47 @@
+@media only screen and (max-width: 320px){
+
+    .imageheader{
+        width: 100%; height: auto;
+    }
+
+
+    nav{
+        padding-left: 0!important;
+    }
+
+    h1{
+        color: blue;
+    }
+
+    p{
+        display: flex;
+        align-items: flex-start;    
+    }
+    
+    .container {
+        max-width: 820px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .comment {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    .textinput {
+        float: left;
+        width: 100%;
+        min-height: 75px;
+        outline: none;
+        resize: none;
+        border: 1px solid grey;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 1440px){
+    
+}
