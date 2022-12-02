@@ -7,6 +7,11 @@ header{
     text-align: center;
 }
 
+#sommaire{
+    background-image: radial-gradient(#e66465, #9198e5);
+
+}
+
 ul{
     list-style: none;
 }
@@ -38,7 +43,7 @@ div{
 }
 
 footer{
-    text-align: right;
+    text-align: center;
 }
 
 .etoilerouge::after{
@@ -55,4 +60,34 @@ a:visited{
 
 a:hover{ 
     color: #2b2d42;
+}
+
+
+#sommaire a:link{
+    color: #781727;
+}
+
+#sommaire a:visited{
+    color: rgb(69, 228, 213);
+}
+
+#sommaire a:hover{ 
+    color: #6fef83;
+}
+
+.flex {
+    display: flex;
+}
+ 
+.col {
+    border: 2px solid #333;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+    line-height: 20px;
 }
