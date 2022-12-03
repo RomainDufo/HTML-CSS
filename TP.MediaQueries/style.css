@@ -1,0 +1,17 @@
+#principal{
+    background-color: rgb(228, 227, 227);
+    border-style: solid;
+    border-color: black;
+    width: 650px ;height: auto;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: lightgrey;
+}
+
+.texte{
+    background-color: white;
+    border: solid none 1px;
+    padding: 4px; margin: 8px 8px 5px 3px;
+}
