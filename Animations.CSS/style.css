@@ -1,0 +1,27 @@
+#image{
+    transform: scale(0.4);
+}
+
+#image:hover{
+    transform: scale(0.7);
+}
+
+#image:active{
+    transform: rotate(90deg);
+}
+
+#image1{
+    transform: scale(0.4);
+}
+
+#image1:hover{
+    transform: skewX(40deg)
+}
+
+#image1:active{
+    transform: translate(200px) skewX(20deg)
+}
+
+#paragraphe{
+    transform: scale(0.5) rotate(35deg) translate(20px);
+}
