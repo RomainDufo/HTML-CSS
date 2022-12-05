@@ -1,0 +1,47 @@
+.regles {
+    display: none;
+}
+
+@media screen and (min-width:800px) {
+    #regles2 {
+        color:  blueviolet;
+        display: block;
+    }
+
+    #p2 {
+        background-color: blueviolet;
+        color: white;
+    }
+
+}
+
+
+@media screen and (orientation:landscape) {
+    #regles3{
+        color:  blueviolet;
+        display: block;
+
+    }
+
+    #p6 {
+        background-color: blueviolet;
+        color: white;
+        
+    }
+}
+
+
+
+
+@media screen and (orientation:portrait) {
+    #regles4 {
+        color:  blueviolet;        
+        display: block;
+    }
+
+    #p5 {
+        background-color: blueviolet;
+        color: white;
+        
+    }
+}
