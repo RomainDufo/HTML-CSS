@@ -1,0 +1,91 @@
+h1{
+    color: red;
+    transition: color 1s linear;
+}
+
+h1:hover{
+    color: green; 
+    animation: h1 2s;
+}
+
+@keyframes h1 {
+    0%{
+        transform: translate(-150px);
+    }
+    50%{
+        transform: translate(-100px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+
+#p1:active{
+    transition: 2s linear;
+    color: aqua;
+    transform: rotate(2turn);
+}
+
+p:hover{
+    animation: p 1s;
+}
+
+
+@keyframes p{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+
+    100%{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#bouton1:hover{
+    animation: bouton1 0.2s infinite alternate; 
+
+}
+
+@keyframes bouton1 {
+    0%{
+        transform:rotate(0deg); 
+    }
+    50%{
+        transform:rotate(10deg);
+    }
+    100%{
+        transform:rotate(-10deg);    
+    }
+}
+
+#bouton2:hover{
+    animation: bouton2 0.2s infinite alternate ;
+}
+
+@keyframes bouton2 {
+    0%{
+        transform: translateY(0px);        
+    }
+   
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+#bouton3:hover{
+    animation: bouton3 0.5s linear infinite alternate;
+}
+
+@keyframes bouton3 {
+    0%{
+        transform:scale(1);
+    }
+    
+    100%{
+        transform:scale(1.3);
+    }
+}
